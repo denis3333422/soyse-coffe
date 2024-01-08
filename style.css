@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Inter:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Open+Sans:ital,wght@0,700;1,400;1,500&family=Red+Hat+Text:ital,wght@0,400;1,500;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,900&family=Tinos:ital,wght@0,400;1,700&display=swap');
+
+
+
+
+body{
+	color: #FFFCF7;
+	font-family:"Roboto";
+}
+.container{
+	width: 1650px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	font-family:"Roboto";
+	border-bottom: 2px solid #000;
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	padding: 25px;
+}
+.logo{
+	display: flex;
+}
+.header{
+	padding-top: 2px;
+}
+.logo-text{
+	padding-top: 29px;
+	grid-column-gap: 150px;
+	display: flex;
+}
+.logo-text-2{
+	padding-top: 29px;
+	grid-column-gap: 150px;
+	display: flex;
+	padding-left: 108px;
+}
+.text{
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	color: #222;
+	padding-top: 20px;
+}
+.point{
+	padding: 30px;
+}
+.batton-text{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+}
+.batton-text-2{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+}
+.batton{
+	padding: 19px 45px 19px 49px;
+	background-color: #FB4B4D;
+	margin-top: 0px;
+}
+.batton-2{
+	padding: 19px 45px 19px 49px;
+	background-color: #FB4B4D;
+	margin-top: 0px;
+}
+.logo-img{
+	padding-top: 5px;
+}
+.sause-img2{
+	position: absolute;
+	left: 74px;
+	margin-top: 70px;
+}
+.sauce{
+	padding: 20px 93px;
+	width: 700px;
+}
+.sause-img{
+    border-bottom: 2px solid #000;
+	border-left: 1px solid #000;
+	border-right: 2px solid #000;
+	padding: 20px 20px 10px 20px;
+	position: absolute;
+	top: 139px;
+	left: 77px;
+}
+.sause-text{
+	font-size: 58px;
+	font-weight: 400;
+	color: #000;
+	left: 776px;
+	top: 138px;
+	position: absolute;
+	line-height: 70px;
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	padding: 20px 290px 20px 236px;
+}
+.pepper{
+	position: absolute;
+	color: #000;
+	font-size:17px;
+	font-weight: 400;
+	margin-top: 376px;
+	margin-left: 77px;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	padding: 20px 0px 20px 0px;
+}
+.pepper-img{
+	padding-left: 93px;
+}
+.sause-jpg{
+	position: absolute;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	padding: 60px 173px 20px 145px;
+	top: 388px;
+	left: 774px;
+}
+.jpg{
+	width: 684px;
+	height: 837px;
+}
+.sause-2-jpg{
+	position: absolute;
+	top: 630px;
+	left: 77px;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	padding: 120px 20px 119px 20px;
+}
+.namber-sause{
+	margin-top: 1127px;
+	display: flex;
+	justify-content: center;
+	color: #000;
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	padding: 59px 10px 59px 10px;
+	width: 	1679px;
+	margin-left: 77px;	
+}
+.sause-text1{
+	display: flex;	
+}
+.sause-text1 p{
+	font-size: 65px;
+	font-weight: 400;
+	line-height: 72px;	
+}
+.text1-img{
+	padding-right: 120px;
+}
+.text1-img2{
+	padding-left: 120px;	
+}
+.img3{
+	padding-right: 358px;	
+}
+.sause-menu-text{
+	margin-left: 20px;	
+	padding-top: 41px;	
+}
+.sause-menu-text p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #000;
+	margin-left: 130px;	
+}
+.sause-menu-text h2{
+	font-size: 32px;
+	font-weight: 400;
+	color: #000;
+	margin-left: 45px;
+	padding-top: 13px;	
+}
+.sause-menu-text img{
+	padding-top: 14px;	
+}
+.img4{
+	margin-top: 20px;	
+}
+.sause-menu{
+	display: flex;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	padding: 0px 157px 20px 156px;
+	width: 1386px;
+	margin-left: 77px;
+}
+.catalog1{
+	margin-top: 110px;	
+}
+.catalog2{
+	margin-top: 20px;
+	margin-left: 60px;	
+}
+.img5{	
+	position: absolute;
+	left: 1140px;		
+}
+.img6{
+	position: absolute;	
+	left: 1570px;
+	margin-top: 25px;	
+}
+.sause-menu-text2{
+	margin-top: 130px;
+	margin-left: 30px;	
+}
+.sause-menu-text2 p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #000;
+	margin-left: 130px;
+}
+.sause-menu-text2 h2{
+	font-size: 32px;
+	font-weight: 400;
+	color: #000;
+	margin-left: 45px;
+	padding-top: 13px;
+}
+.sause-menu-text2 img{
+	padding-top: 14px;
+}
+.line{
+	margin-right: 24px;	
+	display:flex;
+	grid-column-gap: 24px;
+	color: 	#000;
+	font-size: 20px;
+	margin-top: 0px;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	width: 1699px;
+	padding: 20px 0px 20px 0px;
+	margin-left: 77px;	
+}
+.line p{
+	margin-right: 70px;	
+	margin-top: 10px;	
+	margin-left: 30px;			
+}
+.img-sause2{
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	width: 1659px;
+	padding: 20px;
+	margin-left: 77px;	
+}
+.wight{
+	width: 1659px;	
+}
